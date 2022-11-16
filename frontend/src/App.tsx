@@ -1,7 +1,13 @@
+import NotificationButton from "./components/NotificationButton/Index";
 
-function App() {  
-  return(
-    <h1>Ola</h1>
+function App() {
+  return (
+    <>
+      
+      <NotificationButton />
+      <NotificationButton />
+      <NotificationButton />
+    </>
   );
 }
 
